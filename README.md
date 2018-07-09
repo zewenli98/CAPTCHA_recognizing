@@ -8,7 +8,8 @@
 ----------
 
 第一类验证码为四则运算验证码，包含一个四则运算，验证方法为要求用户输出运算表达式及结果。验证码包含噪点干扰。如图示例：<br>
-![first](imgs/first.png)
+![first](imgs/first.png)<br><br>
+
 卷积操作拓扑图如下：
 ![first](imgs/first_conv.png)<br>
 
