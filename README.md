@@ -1,8 +1,9 @@
 # 验证码识别CAPTCHA_recognizing
-第九届中国大学生服务外包创新创业大赛-A16验证码识别（河海大学-李说啥都对）<br>
+<b>第九届中国大学生服务外包创新创业大赛-A16验证码识别（河海大学-李说啥都对）</b><br>
 --------
-<b>本项目抛弃了传（过）统（时）的SVM支持向量机，使用'卷积神经网络(Convolutional Neural Networks, CNN)'针对所给验证码进行识别，五类验证码的准确率均在95%+，第一类竟达到100%。Let's come to the point!</b>
-<br>
+本项目抛弃了传（过）统（时）的SVM支持向量机，使用卷积神经网络(Convolutional Neural Networks, CNN)针对所给验证码进行识别，五类验证码的准确率均在95%+，第一类竟达到100%。Let's come to the point!
+<br><br>
+
 第一类验证码 First CAPTCHA
 ----------
 
@@ -37,8 +38,8 @@
 
 第五类我现在有两个思路：<br>
 
-+**暹罗网络(Siamese Network)**，主要是因为训练样本不够并且标签无实际意义；<br>
-+**使用条件生成式对抗网络(Conditional Generative Adversarial Networks, cGAN)**，可以解决训练样本不足和标签无意义问题。
+1.**暹罗网络(Siamese Network)**，主要是因为训练样本不够并且标签无实际意义；<br>
+2.**使用条件生成式对抗网络(Conditional Generative Adversarial Networks, cGAN)**，可以解决训练样本不足和标签无意义问题。
 决赛时问了几队用的都是Siamese，没有人（没听说）用cGAN的，立个flag，2018年内要把两种方法都试一下！！！
 <br>
 ps：因为样本数据太多就不传了
